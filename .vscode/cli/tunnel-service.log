@@ -1,0 +1,32 @@
+[2024-04-22 17:58:55] debug Starting tunnel with `code /Applications/Visual Studio Code.app/Contents/Resources/app/bin/code-tunnel --verbose --cli-data-dir /Users/kjk/.vscode/cli tunnel service internal-run`
+[2024-04-22 17:58:55] debug starting as client to singleton
+[2024-04-22 17:58:55] debug An existing tunnel is running on this machine, connecting to it...
+[2024-04-22 17:58:55] debug Starting tunnel with `code /Applications/Visual Studio Code.app/Contents/Resources/app/bin/code-tunnel tunnel --accept-server-license-terms --log info --name kevins-mbplocal --parent-process-id 63581`
+[2024-04-22 17:58:55] debug starting as new singleton
+Connected to an existing tunnel process running on this machine.
+[2024-04-22 17:58:55] trace Found token in keyring
+[2024-04-22 17:58:55] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2024-04-22 17:58:55] debug [reqwest::connect] starting new connection: https://usw2.rel.tunnels.api.visualstudio.com/
+[2024-04-22 17:58:56] debug Starting tunnel to server...
+[2024-04-22 17:58:56] trace Found token in keyring
+[2024-04-22 17:58:57] debug [tungstenite::handshake::client] Client handshake done.
+[2024-04-22 17:58:57] debug [russh::ssh_read] read_ssh_id: reading
+[2024-04-22 17:58:57] debug [russh::ssh_read] read 39
+[2024-04-22 17:58:57] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.11\r\n")
+[2024-04-22 17:58:57] debug [russh::client] writing 352 bytes
+[2024-04-22 17:58:57] debug [russh::ssh_read] id 39 39
+[2024-04-22 17:58:57] debug [russh::client::kex] extending []
+[2024-04-22 17:58:57] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2024-04-22 17:58:57] debug [russh::client::kex] write = []
+[2024-04-22 17:58:57] debug [russh::client::kex] i0 = 342
+[2024-04-22 17:58:57] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x120e08420, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x120e08830, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x120e09520, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x130f61260, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2024-04-22 17:58:57] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2024-04-22 17:58:57] trace Found token in keyring
+[2024-04-22 17:58:57] debug Connected to tunnel endpoint: TunnelRelayTunnelEndpoint { base: TunnelEndpoint { id: "30b1f3db-e347-4599-a2b4-753f05bb6a00-relay", connection_mode: TunnelRelay, host_id: "30b1f3db-e347-4599-a2b4-753f05bb6a00", host_public_keys: [], port_uri_format: Some("https://xdbq42qp-{port}.usw2.devtunnels.ms/"), tunnel_uri: Some("https://xdbq42qp.usw2.devtunnels.ms/"), port_ssh_command_format: Some("ssh xdbq42qp-{port}@ssh.usw2.devtunnels.ms"), tunnel_ssh_command: Some("ssh xdbq42qp@ssh.usw2.devtunnels.ms"), ssh_gateway_public_key: None }, host_relay_uri: Some("wss://usw2-data.rel.tunnels.api.visualstudio.com/api/v1/Host/Connect/amusing-fog-m93tvff"), client_relay_uri: Some("wss://usw2-data.rel.tunnels.api.visualstudio.com/api/v1/Client/Connect/amusing-fog-m93tvff") }
+[2024-04-22 17:58:57] debug Visual Studio Code Server is listening for incoming connections
+[2024-04-22 17:58:57] info 
+Open this link in your browser https://vscode.dev/tunnel/kevins-mbplocal
+
+[2024-04-22 17:58:57] trace Found token in keyring
+[2024-04-22 17:58:57] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2024-04-22 17:59:19] debug starting as new singleton
